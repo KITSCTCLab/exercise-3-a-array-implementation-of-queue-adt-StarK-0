@@ -102,7 +102,7 @@ class Solution:
         # Write your code here
         if not self.is_queue_empty():
             self.front += 1
-            return self.queue[self.front - 1 
+            return self.queue[self.front - 1]
 
 
 # read the string text
