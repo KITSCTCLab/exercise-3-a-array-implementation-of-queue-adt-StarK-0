@@ -102,7 +102,7 @@ class Solution:
         # Write your code here
         if not self.is_queue_empty():
             self.front += 1
-            return self.queue[self.front - 1] 
+            return self.queue[self.front - 1 
 
 
 # read the string text
@@ -119,7 +119,7 @@ for index in range(length_of_text):
     solution.push_character(text[index])
     solution.enqueue_character(text[index])
 
-is_palindrome = rue
+is_palindrome = True
 '''
 pop the top character from stack
 dequeue the first character from queue
